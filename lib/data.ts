@@ -50,7 +50,7 @@ export const projectsData = [
     title: "Movix App",
     description:
       "movies and series application",
-    tags: ["React", "Sass"],
+    tags: ["React", "Sass", "JavaScript", "Redux"],
     imageUrl: movixImg,
     link: "https://movix-tan-nu.vercel.app/",
     githubLink: "https://github.com/SNEIDER1996/movix"
