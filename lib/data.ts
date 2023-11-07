@@ -1,4 +1,5 @@
-import airbnbImg from "@/public/airbnb.png";
+import lmsImg from "@/public/lms.png";
+import notioImg from "@/public/notion.png";
 import ecommerceImg from "@/public/ecommerce.png";
 import messengerImg from "@/public/messenger.png";
 import pokemonImg from "@/public/pokemon.png";
@@ -29,13 +30,22 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Airbnb Clone",
+    title: "Notion Clone",
     description:
-      "this is an airbnb clone with many of its functionalities",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "TypeScript", "Prisma"],
-    imageUrl: airbnbImg,
-    link: "https://airbnb-clone-peach-three.vercel.app/",
-    githubLink: "https://github.com/SNEIDER1996/Airbnb-clone"
+      "this is an notion clone with many of its functionalities",
+    tags: ["React", "Next.js", "Tailwind", "TypeScript", "Prisma"],
+    imageUrl: notioImg,
+    link: "https://notion-clone-olive.vercel.app/",
+    githubLink: "https://github.com/SNEIDER1996/notion-clone"
+  },
+  {
+    title: "LMS",
+    description:
+      "this is an lms with many of its functionalities",
+    tags: ["React", "Next.js", "MySQL", "Tailwind", "TypeScript", "Prisma"],
+    imageUrl: lmsImg,
+    link: "https://lms-ten-psi.vercel.app/",
+    githubLink: "https://github.com/SNEIDER1996/lms"
   },
   {
     title: "Ecommerce",
